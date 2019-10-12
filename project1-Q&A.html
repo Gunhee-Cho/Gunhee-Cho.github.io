@@ -15,23 +15,6 @@
 	  color: black;
 	  }
   </style>
-  <script>
-    struct fom{
-	    var nickname;
-		var date;
-		var secret;
-		var title;
-		var content;
-		}
-	static struct fom nice[100];
-    static var num = 0;
-	num++;
-	nice[num].nickname = input.nickname;
-	nice[num].date = input.date;
-	nice[num].secret = input.secret;
-	nice[num].title = input.title;
-	nice[num].content = input.secret;
-  </script>
 </head>
 <body>
  <div class="a">조건희 블로그에 오신 걸 환영합니다</div>
@@ -49,15 +32,6 @@
 	   <span style="margin-left: 30%;">닉네임</span>
 	   <span style="margin-left: 10%;">날짜</span><br>
 	   <hr style="width: 92%; margin-right: 10%"/>
-	   <script>
-	     for(var i = 0; i < num; i++)
-		 {
-		   document.write("<span>" + (i+1) + "</span>");
-		   document.write("<span style=\"margin-left: 30%;\">" + nice[i].title + "</span>");
-		   document.write("<span style=\"margin-left: 30%;\">" + nice[i].nickname + "</span>");
-		   document.write("<span style=\"margin-left: 30%;\">" + nice[i].date + "</span><br>");
-		 }
-	   </script>
 	   <hr style="width: 92%; margin-right: 10%;"/>
 	   <button><a href="project1-Q&A글쓰기.html">글쓰기</a></button>
 	 </div>
