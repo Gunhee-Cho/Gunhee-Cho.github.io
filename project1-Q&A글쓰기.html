@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="project1.css" />
+  <link href="https://fonts.googleapis.com/css?family=Dokdo|Nanum+Pen+Script&display=swap&subset=korean" rel="stylesheet">
+  <style>
+    div.b{
+	  height: 450px;
+	  }
+	form{
+	  margin-left: 5%; margin-top: 10px;
+	  }
+  </style>
+</head>
+<body>
+ <div class="a">조건희 블로그에 오신 걸 환영합니다</div>
+  <ul>
+    <li><a href="project1-누구.html">누구</a></li>
+    <li><a href="project1-시간표.html">시간표</a></li>
+    <li><a href="project1-일상.html">일상</a></li>
+    <li class="a">Q&A</li>
+	<li><a href="project1.html">홈으로</a></li>
+  </ul>
+  <div class="b">
+    <form name="input" action="project1-Q&A.html" method="post">
+	  닉네임 <input style="margin-left: 20px; border-style: solid;" type="text" name="nickname"/><br>
+	  날짜 <input style="margin-left: 20px; border-style: solid;" type="date" name="date"/><br>
+	  공개/비공개
+	    <input style="margin-left: 20px;" type="checkbox" name="secret" value="공개">공개
+	    <input type="checkbox" name="secret" value="비공개">비공개<br>
+	  제목 <input style="margin-left: 20px; border-style: solid; width: 80%" type="text" name="title"/><br>
+	  내용<br>
+	  <textarea name="content" rows="18" cols="120"></textarea><br>
+	  <input type="submit" value="완료">
+	  <input type="reset" value="초기화">
+	</form>  
+  </div>
+</body>
+</html>

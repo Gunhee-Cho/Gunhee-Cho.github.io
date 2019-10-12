@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="project1.css" />
+  <link href="https://fonts.googleapis.com/css?family=Dokdo|Nanum+Pen+Script&display=swap&subset=korean" rel="stylesheet">
+  <style>
+    div.b{
+	  height: 450px;
+	  }
+	img{
+	  width: 140px; height: 100px;
+	  margin-top: 50px; margin-left: 5%;
+	  border-style: double; border-width: 5px; border-color: black;
+	  }
+	img:hover{
+	  opacity: 0.4;
+	  }
+	figure{
+	  float: left;
+	  }
+	figcaption{
+	  margin-left: 10px;
+	  text-align: center;
+	  }
+  </style>
+</head>
+<body>
+  <div class="a">조건희 블로그에 오신 걸 환영합니다</div>
+  <ul>
+    <li><a href="project1-누구.html">누구</a></li>
+    <li><a href="project1-시간표.html">시간표</a></li>
+    <li class="a">일상</li>
+    <li><a href="project1-Q&A.html">Q&A</a></li>
+	<li><a href="project1.html">홈으로</a></li>
+  </ul>
+  <div class="b">
+    <script>
+      var i;
+	  
+	  for(i = 1; i < 4; i++)
+	  {
+	    document.write("<figure>");
+		document.write("<a href=\"project1-일상video" + i + ".html\">");
+		document.write("<img src=\"video/video" + i + "_Moment.jpg\">");
+		document.write("</a>");
+		document.write("<figcaption>video" + i + "</figcaption>");
+		document.write("</figure>");
+	  }
+    </script>
+  </div>
+</body>
+</html>

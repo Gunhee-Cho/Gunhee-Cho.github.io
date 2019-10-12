@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="project1.css" />
+  <link href="https://fonts.googleapis.com/css?family=Dokdo|Nanum+Pen+Script&display=swap&subset=korean" rel="stylesheet">
+  <style>
+	div.b{
+	  height: 420px;
+	  }
+    div.c{
+	  margin-left: 50%; margin-top: 80px;
+      width: 40%;  height: 80%;
+	  }
+	img{
+	  margin-top: 60px; margin-left: 12%; 
+	  width: 25%; height: 300px;
+	  float: left;
+	  animation: 2s anim;
+	  animation-iteration-count: 3;
+	  }
+	span{
+	  font-size: 30px;
+	  font-family: 'Dokdo', cursive;
+	  }
+	span.a{
+	  border-style: double;
+	  text-align: center;
+	  width: 50px;
+	  }
+	@keyframes anim
+	{
+	  0% { border-radius: 0px;}
+	  30%{ border-radius: 300px;}
+      50%{ border-raduis: 600px;}
+      70%{ border-radius: 300px;}
+      100% { border-radius: 0px;}
+    }	  
+  </style>
+</head>
+<body>
+  <div class="a">조건희 블로그에 오신 걸 환영합니다</div>
+  <ul>
+    <li class="a">누구</li>
+    <li><a href="project1-시간표.html">시간표</a></li>
+    <li><a href="project1-일상.html">일상</a></li>
+    <li><a href="project1-Q&A.html">Q&A</a></li>
+	<li><a href="project1.html">홈으로</a></li>
+  </ul>
+  <div class="b">
+    <img src="조건희.jpg">
+	<div class="c">
+	  <span class="a">이름</span><span style="margin-left: 20px;">조건희</span><br><br>
+	  <span class="a">학번</span><span style="margin-left: 20px;">17</span><br><br>
+	  <span class="a">학과</span><span style="margin-left: 20px;">소프트웨어학과</span><br><br>
+	  <span class="a">취미</span><span style="margin-left: 20px;">컴퓨터게임, 음악듣기, 코딩</span>
+	</div>
+  </div>
+</body>
+</html>
